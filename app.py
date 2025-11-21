@@ -31,9 +31,6 @@ if not check_password():
     st.stop()
 
 # --- BARRA LATERAL ---
-st.sidebar.title("Opciones")
-debug_mode = st.sidebar.checkbox("🕵️‍♂️ Modo Debug (Ver datos crudos)")
-
 st.title("📊 Dashboard Global de Inversiones")
 
 # 3. CARGA DE DATOS
