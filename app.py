@@ -180,7 +180,7 @@ if len(df) > 1:
             "Hasta la posición:", 
             min_value=start_rank, 
             max_value=len(df), 
-            value=min(50, len(df))
+            value=min(30, len(df))
         )
 
     # Filtrado manual
