@@ -36,7 +36,7 @@ st.title("📊 Dashboard Global de Inversiones")
 def load_data():
     conn = st.connection("gsheets", type=GSheetsConnection)
     # Leemos tal cual viene de Google
-    df = conn.read(worksheet="0") 
+    df = conn.read(worksheet="598707666") 
     return df
 
 try:
