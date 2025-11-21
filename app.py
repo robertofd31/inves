@@ -47,12 +47,7 @@ except Exception as e:
     st.error(f"Error crítico conectando: {e}")
     st.stop()
 
-# --- DIAGNÓSTICO ---
-if debug_mode:
-    st.warning("🚧 MODO DEBUG ACTIVADO 🚧")
-    st.markdown("**Columnas detectadas:**")
-    st.write(list(df_raw.columns))
-    st.dataframe(df_raw.head())
+
 
 # 4. LIMPIEZA Y PREPARACIÓN
 
