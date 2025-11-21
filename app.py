@@ -18,7 +18,7 @@ st.title("📈 Dashboard de Inversiones")
 def load_data():
     conn = st.connection("gsheets", type=GSheetsConnection)
     # Leemos la hoja de datos crudos para poder filtrar dinámicamente
-    df = conn.read(worksheet="BBDD Posiciones") 
+    df = conn.read(worksheet="598707666") 
     return df
 
 try:
